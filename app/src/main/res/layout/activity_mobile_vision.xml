@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="qrcode.compare.activity.MobileVisionActivity">
+
+    <fragment
+        android:id="@+id/barcode"
+        android:name="com.google.android.gms.samples.vision.barcodereader.BarcodeCapture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:gvb_auto_focus="true"
+        app:gvb_code_format="all_format"
+        app:gvb_draw="true"
+        app:gvb_flash="false"
+        app:gvb_rect_colors="@array/rect_color" />
+
+    <ImageButton
+        android:id="@+id/flash_btn"
+        android:layout_width="56dp"
+        android:visibility="gone"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:background="#00000000"
+        android:src="@drawable/ic_flash_unpress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</LinearLayout>

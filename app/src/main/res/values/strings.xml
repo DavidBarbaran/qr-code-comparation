@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">QR Code Compare</string>
+    <string name="turn_on_flashlight">Turn on Flashlight</string>
+    <string name="turn_off_flashlight">Turn off Flashlight</string>
+    <string name="scanner1">MobileVisionBarcodeScanner</string>
+    <string name="scanner2">zxing-android-embedded</string>
+    <string name="scanner3">barcodescanner</string>
+
 </resources>
