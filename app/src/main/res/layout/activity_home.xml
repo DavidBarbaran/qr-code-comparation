@@ -37,4 +37,25 @@
         android:background="@color/colorPrimary"
         android:textColor="@color/white" />
 
+    <Button
+        android:id="@+id/scanner4_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scanner4"
+        android:textAllCaps="false"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/scanner5_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scanner5"
+        android:textAllCaps="false"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white" />
+
+
 </LinearLayout>

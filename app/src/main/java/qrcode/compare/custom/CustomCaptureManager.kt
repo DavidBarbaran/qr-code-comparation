@@ -1,4 +1,4 @@
-package qrcode.compare
+package qrcode.compare.custom
 
 import android.app.Activity
 import android.util.Log

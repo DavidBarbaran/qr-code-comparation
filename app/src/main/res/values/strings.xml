@@ -5,5 +5,7 @@
     <string name="scanner1">MobileVisionBarcodeScanner</string>
     <string name="scanner2">zxing-android-embedded</string>
     <string name="scanner3">barcodescanner</string>
+    <string name="scanner4">ML Kit (Firebase)</string>
+    <string name="scanner5">Camera2</string>
 
 </resources>

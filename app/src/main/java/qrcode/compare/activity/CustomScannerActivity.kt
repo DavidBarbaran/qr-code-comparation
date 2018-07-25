@@ -11,7 +11,7 @@ import com.google.zxing.ResultPoint
 import com.journeyapps.barcodescanner.BarcodeCallback
 import com.journeyapps.barcodescanner.BarcodeResult
 import com.journeyapps.barcodescanner.DecoratedBarcodeView
-import qrcode.compare.CustomCaptureManager
+import qrcode.compare.custom.CustomCaptureManager
 import qrcode.compare.R
 import qrcode.compare.config.Setting
 
@@ -50,7 +50,6 @@ class CustomScannerActivity : AppCompatActivity(), DecoratedBarcodeView.TorchLis
             override fun possibleResultPoints(resultPoints: MutableList<ResultPoint>?) {
 
             }
-
         }
         capture.decode()
 
@@ -61,8 +60,8 @@ class CustomScannerActivity : AppCompatActivity(), DecoratedBarcodeView.TorchLis
                 .hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH)
     }
 
-    private fun switchFlashLight (){
-        if(statusTorch){
+    private fun switchFlashLight() {
+        if (statusTorch) {
             barcodeScannerView.setTorchOff()
 
         } else {
